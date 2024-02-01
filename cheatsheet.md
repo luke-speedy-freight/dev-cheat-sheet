@@ -25,3 +25,7 @@
 ### Deploy local files to server (example using uploads folder)
 
 `$ scp -r ~/Downloads/uploads/* root@IP_HOST:FULL_PATH_GOES_HERE/wp-content/uploads`
+
+### Log variable value to debug file (PHP)
+
+file_put_contents( __DIR__ . "/ADD_NAME-debug.log", "VAR_NAME: " . $VAR_NAME . "\n", FILE_APPEND);
