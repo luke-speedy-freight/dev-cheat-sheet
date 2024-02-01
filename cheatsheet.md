@@ -28,4 +28,4 @@
 
 ### Log variable value to debug file (PHP)
 
-file_put_contents( __DIR__ . "/ADD_NAME-debug.log", "VAR_NAME: " . $VAR_NAME . "\n", FILE_APPEND);
+`file_put_contents( __DIR__ . "/ADD_NAME-debug.log", "VAR_NAME: " . $VAR_NAME . "\n", FILE_APPEND);`
